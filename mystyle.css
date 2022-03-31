@@ -12,7 +12,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #0B0B61;
     display: flex;
     align-items: center;
  }
@@ -22,7 +22,7 @@
  }
  a {	
     text-decoration: none;
-    color: #4b4b4b;
+    color: #fff;
  }
  nav{
     margin: 0 0 0 auto;
