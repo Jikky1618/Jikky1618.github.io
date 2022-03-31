@@ -52,6 +52,10 @@ li{
     font-weight: bold;
     color: #fff;
 }
+.about{
+    margin: 0;
+    text-align: center;
+}
 footer{
     padding: 20px 4% 10px;
     bottom: 0;
