@@ -42,6 +42,7 @@ li{
     background-image: url('https://Jikky1618.github.io/img/Background.png');
     background-attachment: fixed;/*固定*/
     background-repeat: no-repeat;
+    background-position: top;
     background-size: cover;
     display: flex;
     align-items: center;
