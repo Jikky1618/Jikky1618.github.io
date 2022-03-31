@@ -1,13 +1,13 @@
 *{
     box-sizing: border-box;
  }
- body {
+body {
     margin: 0;
     padding: 0;
     background-color: #202124;
     font-family: 'Noto Sans JP','Roboto', sans-serif;
- }
- header{
+}
+header{
     padding: 15px 5% 10px;
     position: fixed;
     top: 0;
@@ -15,46 +15,47 @@
     background-color: #0B0B61;
     display: flex;
     align-items: center;
- }
- h1 {
+}
+.header h1{
     margin: 0; padding: 0;
     font-size: 20px;
- }
- a {	
+    color: #fff;
+}
+a {	
     text-decoration: none;
     color: #fff;
- }
- nav{
+}
+nav{
     margin: 0 0 0 auto;
- }
- ul{
+}
+ul{
     list-style: none;
     margin: 0;
     display: flex;
- }
- li{
+}
+li{
     margin: 0 0 0 15px;
     font-size: 14px;
- }
- .main-visual {
+}
+.main-visual {
     display: flex;
     justify-content: center;
     background-attachment: fixed;
     align-items: center;
     height: 100vh;
     background: url('https://Jikky1618.github.io/img/Background.png') top center / cover no-repeat;
- }
- h2 {
+}
+h2 {
     margin: 0;
     font-size: 30px;
     font-weight: normal;
     color: #fff;
- }
- footer{
+}
+footer{
     padding: 20px 4% 10px;
     bottom: 0;
     width: 100%;
     display: flex;
     align-items: center;
     color: #fff;
- }
+}
