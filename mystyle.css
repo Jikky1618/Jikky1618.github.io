@@ -37,18 +37,18 @@ li{
     margin: 0 0 0 15px;
     font-size: 14px;
 }
-.main-visual {
+.main-visual{
+    background: url('https://Jikky1618.github.io/img/Background.png') top center / cover no-repeat;/*背景をBackground.pngにする*/
+    background-attachment: fixed;/*背景をスクロールしないよう固定*/
     display: flex;
-    justify-content: center;
-    background-attachment: fixed;
     align-items: center;
+    justify-content: center;
     height: 100vh;
-    background: url('https://Jikky1618.github.io/img/Background.png') top center / cover no-repeat;
 }
-h2 {
+.main-visual h2{
     margin: 0;
-    font-size: 30px;
-    font-weight: normal;
+    font-size: 50px;
+    font-weight: bold;
     color: #fff;
 }
 footer{
