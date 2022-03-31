@@ -4,12 +4,13 @@
 body{
     margin: 0;
     padding: 0;
+    color: #fff;
     background-color: #202124;
     font-family: 'Noto Sans JP','Roboto', sans-serif;
 }
 header{
     padding: 1% 5% 1%;
-    position: fixed;
+    position: fixed;/*固定*/
     top: 0;
     width: 100%;
     background-color: #0B0B61;
@@ -38,8 +39,8 @@ li{
     font-size: 14px;
 }
 .main-visual{
-    background: url('https://Jikky1618.github.io/img/Background.png') top center / cover no-repeat;/*背景をBackground.pngにする*/
-    background-attachment: fixed;/*背景をスクロールしないよう固定*/
+    background: url('https://Jikky1618.github.io/img/Background.png') top center / cover no-repeat;
+    background-attachment: fixed;/*固定*/
     display: flex;
     align-items: center;
     justify-content: center;
