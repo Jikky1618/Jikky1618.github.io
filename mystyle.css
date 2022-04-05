@@ -56,8 +56,12 @@ li{
     color: #F5F5F5;
 }
 .about{
-    margin: 0;
+    margin: auto 20%;
     text-align: center;
+}
+.about p{
+    text-align: left;
+    display: inline-block;
 }
 footer{
     padding: 20px 4% 10px;
