@@ -59,6 +59,12 @@ li{
     margin: auto 20%;
     text-align: center;
 }
+.about h1{
+    margin: 5px 20%;
+}
+h1#about{
+    margin: 10px 20%;
+}
 .about p{
     text-align: left;
     display: inline-block;
