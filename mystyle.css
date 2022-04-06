@@ -42,6 +42,7 @@ li{
 }
 .main-visual{
     background-image: url('https://Jikky1618.github.io/img/Background.png');
+    background-color: #202124;
     background-attachment: fixed;/*固定*/
     background-repeat: no-repeat;
     background-position: top;
@@ -72,7 +73,7 @@ h1#about{
     display: inline-block;
 }
 footer{
-    padding: 20px 4% 10px;
+    padding: 30px 4% 20px;
     bottom: 0;
     width: 100%;
     display: flex;
