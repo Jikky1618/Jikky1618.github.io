@@ -11,16 +11,18 @@ body{
 header{
     padding: 1% 5% 1%;
     position: fixed;/*固定*/
-    top: 0;
-    width: 100%;
+    top: 0;/*最上部*/
+    width: 100%;/*横幅をディスプレイの横の大きさに*/
     background-color: #0B0B61;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.header h1{
-    margin: auto 20px; padding: 0;
-    font-size: 20px;
-    color: #F5F5F5;
+.header img{
+    margin: auto 20px;
+    padding: 0;
+    display: flex;
+    align-items: center;
 }
 a{	
     text-decoration: none;
