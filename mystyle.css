@@ -65,17 +65,17 @@ li{
     text-align: center;
     border: 9px solid #2B2A33; /* 枠線を付加 */
 }
-.about .works{
+.about,.works{
     margin: auto 20%;
     text-align: center;
 }
-.about h1 .works h1{
+.about h1,.works h1{
     margin: 5px 20%;
 }
 h1#about{
     margin: 10px 20%;
 }
-.about p .works p{
+.about p,.works p{
     text-align: left;
     display: inline-block;
 }
