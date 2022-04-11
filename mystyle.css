@@ -73,15 +73,21 @@ li{
     margin: auto 20%;
     text-align: center;
 }
-.about h1,.works h1{
-    margin: 5px 20%;
+.about h1{
+    margin: 50px 20%;
 }
-h1#about{
-    margin: 10px 20%;
+.works h1{
+    margin: 50px 20% 10px;
+}
+h1#name{
+    margin: 5px 20%;
 }
 .about p,.works p{
     text-align: left;
     display: inline-block;
+}
+.title p{
+    margin: 10px 20%;
 }
 footer{
     padding: 30px 4% 20px;
