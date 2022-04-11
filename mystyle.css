@@ -87,7 +87,8 @@ h1#name{
     display: inline-block;
 }
 .title p{
-    margin: 10px 20%;
+    margin: 7px 20%;
+    font-size: 15px;
 }
 footer{
     padding: 30px 4% 20px;
