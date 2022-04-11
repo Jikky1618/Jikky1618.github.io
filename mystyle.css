@@ -65,7 +65,11 @@ li{
     text-align: center;
     border: 9px solid #2B2A33; /* 枠線を付加 */
 }
-.about,.works{
+.about{
+    margin: auto 20%;
+    text-align: center;
+}
+.works{
     margin: auto 20%;
     text-align: center;
 }
@@ -86,4 +90,37 @@ footer{
     display: flex;
     align-items: center;
     color: #F5F5F5;
+}
+.footer-light{
+    position: relative;
+    left: 40px;
+}
+.fas_sns_circle{
+	margin: 0;
+	padding: 0; 
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+}
+.fas_sns_circle li{
+	list-style: none;
+	margin: 0 20px 0 0;
+}
+.fas_sns_circle li a{
+	text-decoration: none;
+	display: inline-block;
+	background: #333;
+	border-radius: 25px;
+}
+.fas_sns_circle li a i{
+	display: inline-block;
+	width: 50px;
+	height: 50px;	
+	color: #fff;
+	font-size: 20px;
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+	justify-content: center;
+	align-items: center;	
 }
