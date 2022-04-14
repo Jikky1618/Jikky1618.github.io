@@ -1,6 +1,7 @@
 $(function() {
     const hum = $('#hamburger, #close')
-    hum.on('click', function(){
-        $('#sp-nav').toggleClass('toggle');
+    $('#hamburger').on('click', function(){
+        alert('hamburger clicked');
+        console.log('hamburger clicked');
     });
 });
