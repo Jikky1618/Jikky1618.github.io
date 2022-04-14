@@ -162,7 +162,7 @@ li{
         display: block;
         width: 30px;
         height: 25px;
-        margin: 0 0 0 auto;
+        margin: 0 10px 0 auto;
     }
     #hamburger span {
         position: absolute;
@@ -170,7 +170,7 @@ li{
         top: 50%;
         width   : 30px;
         height  : 2px;
-        left    : 0;
+        left    : 0px;
         background : #F5F5F5;
         transform: translateY(-50%);
     }
@@ -266,6 +266,10 @@ li{
     .toggle{
         transform: translateY( 0 );
         opacity: 1;
+    }
+
+    #header img{
+        margin: auto 0;
     }
 
     .main-visual h2{
