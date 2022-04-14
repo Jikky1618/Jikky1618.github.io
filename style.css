@@ -29,11 +29,9 @@ body{
     width: 70px;
 }
 
-#sp-nav,#hamburger{
+#sp-nav{
     display: none;
 }
-
-
 
 /*footer
 ------------------------------------------------------------*/
