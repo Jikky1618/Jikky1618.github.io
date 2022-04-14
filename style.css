@@ -10,7 +10,7 @@ body{
 }
 
 /*header*/
-header{
+#header{
     padding: 1% 8%;
     position: fixed;/*固定*/
     top: 0;/*最上部*/
