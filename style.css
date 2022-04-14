@@ -70,6 +70,9 @@ footer{
 	list-style: none;
 	margin: 0 20px 0 0;
 }
+.fas_sns_circle li:nth-child(3) {
+	margin: 0;
+  }
 .fas_sns_circle li a{
 	text-decoration: none;
 	display: inline-block;
@@ -287,15 +290,19 @@ li{
     h1#name{
         margin: 5px 5%;
     }
-    .footer-right{
-        position: relative;
-        /* 上 | 右 | 下 | 左 */
-        margin:0 5% 0 10%;
+    footer{
+        /* 上下 | 左右 */
+        padding: 20px 4%;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        flex-flow: column;
+        color: #F5F5F5;
+        background-color: #19191E; 
     }
-    .footer-light{
+    .footer-right,.footer-light{
         position: relative;
         /* 上 | 右 | 下 | 左 */
-        margin:0 10% 0 5%;
-    
+        margin: 0 auto;
     }
 }
