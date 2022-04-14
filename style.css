@@ -29,75 +29,6 @@ body{
     width: 70px;
 }
 
-
-.main-visual{
-    background-image: url('https://Jikky1618.github.io/img/Background.png');
-    background-color: #202124;
-    background-attachment: fixed;/*固定*/
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-.main-visual h2{
-    margin: 0;
-    font-size: 70px;
-    font-weight: bold;
-    color: #F5F5F5;
-}
-.about-icon img{
-    width:  200px;       /* ※縦横を同値に */
-    height: 200px;
-    border-radius: 50%;
-    text-align: center;
-    border: 9px solid #2B2A33; /* 枠線を付加 */
-}
-.about{
-    margin: auto 20%;
-    text-align: center;
-}
-.works{
-    margin: auto 20%;
-    text-align: center;
-}
-.about h1{
-    margin: 50px 20%;
-}
-.works h1{
-    margin: 50px 20% 10px;
-}
-h1#name{
-    margin: 5px 20%;
-}
-.about p,.works p{
-    text-align: left;
-    display: inline-block;
-}
-.title p{
-    margin: 7px 20%;
-    font-size: 15px;
-}
-a{
-    text-decoration: none;
-    color: #F5F5F5;
-}
-nav{
-    margin-left: auto;
-}
-ul{
-    list-style: none;
-    margin: 0 15px;
-    display: flex;
-}
-li{
-    margin: 0 15px;
-    font-size: 15px;
-}
-
-
 /*footer
 ------------------------------------------------------------*/
 footer{
@@ -149,4 +80,74 @@ footer{
     display: flex;
 	justify-content: center;
 	align-items: center;	
+}
+
+.main-visual{
+    background-image: url('https://Jikky1618.github.io/img/Background.png');
+    background-color: #202124;
+    background-attachment: fixed;/*固定*/
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main-visual h2{
+    margin: 0;
+    font-size: 70px;
+    font-weight: bold;
+    color: #F5F5F5;
+}
+.about-icon img{
+    width:  200px;       /* ※縦横を同値に */
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    border: 9px solid #2B2A33; /* 枠線を付加 */
+}
+.about,.works{
+    margin: auto 20%;
+    text-align: center;
+}
+.about h1{
+    margin: 50px 20%;
+}
+.works h1{
+    margin: 50px 20% 10px;
+}
+h1#name{
+    margin: 5px 20%;
+}
+.about p,.works p{
+    text-align: left;
+    display: inline-block;
+}
+.title p{
+    margin: 7px 20%;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+nav{
+    margin-left: auto;
+}
+ul{
+    list-style: none;
+    margin: 0 15px;
+    display: flex;
+}
+li{
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 641px){
+    .about,.works{
+        margin: auto 5%;
+        text-align: center;
+    }
 }
