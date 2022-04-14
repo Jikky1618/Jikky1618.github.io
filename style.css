@@ -9,7 +9,8 @@ body{
     font-family: 'Noto Sans JP','Roboto', sans-serif;
 }
 
-/*header*/
+/*header
+------------------------------------------------------------*/
 #header{
     padding: 1% 8%;
     position: fixed;/*固定*/
@@ -27,23 +28,6 @@ body{
     align-items: center;
     width: 70px;
 }
-a{	
-    text-decoration: none;
-    color: #F5F5F5;
-}
-nav{
-    margin-left: auto;
-}
-ul{
-    list-style: none;
-    margin: 0 15px;
-    display: flex;
-}
-li{
-    margin: 0 15px;
-    font-size: 15px;
-}
-
 
 
 .main-visual{
@@ -96,18 +80,46 @@ h1#name{
     margin: 7px 20%;
     font-size: 15px;
 }
+a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+nav{
+    margin-left: auto;
+}
+ul{
+    list-style: none;
+    margin: 0 15px;
+    display: flex;
+}
+li{
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+
+/*footer
+------------------------------------------------------------*/
 footer{
-    padding: 30px 4% 20px;
+    /* 上 | 左右 | 下 */
+    padding: 25px 4% 25px;
     bottom: 0;
     width: 100%;
+    text-align: center;
     display: flex;
     align-items: center;
-    background-color: #0A0C12;
     color: #F5F5F5;
+}
+.footer-right{
+    position: relative;
+    /* 上 | 右 | 下 | 左 */
+    margin:0 auto 0 20%;
 }
 .footer-light{
     position: relative;
-    left: 30px;
+    /* 上 | 右 | 下 | 左 */
+    margin:0 20% 0 auto;
+
 }
 .fas_sns_circle{
 	margin: 0;
