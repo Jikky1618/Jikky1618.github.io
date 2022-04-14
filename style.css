@@ -21,8 +21,8 @@ body{
     justify-content: space-between;
 }
 #header img{
-    margin: auto 20px;
     padding: 0;
+    margin: auto 20px;
     display: flex;
     align-items: center;
     width: 70px;
@@ -102,6 +102,7 @@ footer{
     width: 100%;
     display: flex;
     align-items: center;
+    background-color: #0A0C12;
     color: #F5F5F5;
 }
 .footer-light{
