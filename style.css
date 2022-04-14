@@ -146,6 +146,13 @@ li{
 }
 
 @media only screen and (max-width: 641px){
+    .main-visual h2{
+        margin: 0;
+        font-size: 40px;
+        font-weight: bold;
+        color: #F5F5F5;
+    }
+
     .about,.works{
         margin: auto 5%;
         text-align: center;
