@@ -40,6 +40,7 @@ footer{
     display: flex;
     align-items: center;
     color: #F5F5F5;
+    background-color: #19191E;
 }
 .footer-right{
     position: relative;
