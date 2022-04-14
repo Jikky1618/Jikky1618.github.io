@@ -8,8 +8,10 @@ body{
     background-color: #202124;
     font-family: 'Noto Sans JP','Roboto', sans-serif;
 }
+
+/*header*/
 header{
-    padding: 1% 5% 1%;
+    padding: 1% 8%;
     position: fixed;/*固定*/
     top: 0;/*最上部*/
     width: 100%;/*横幅をディスプレイの横の大きさに*/
@@ -18,18 +20,19 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.header img{
+#header img{
     margin: auto 20px;
     padding: 0;
     display: flex;
     align-items: center;
+    width: 70px;
 }
 a{	
     text-decoration: none;
     color: #F5F5F5;
 }
 nav{
-    margin: 0 0 0 auto;
+    margin-left: auto;
 }
 ul{
     list-style: none;
@@ -38,8 +41,11 @@ ul{
 }
 li{
     margin: 0 15px;
-    font-size: 14px;
+    font-size: 15px;
 }
+
+
+
 .main-visual{
     background-image: url('https://Jikky1618.github.io/img/Background.png');
     background-color: #202124;
