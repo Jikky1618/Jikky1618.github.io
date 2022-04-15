@@ -28,7 +28,6 @@ header{
     align-items: center;
     width: 70px;
 }
-.header nav
 
 
 
@@ -157,7 +156,7 @@ li{
         display: none;
     }
 
-    #header img{
+    .header img{
         margin: auto 0;
     }
 
