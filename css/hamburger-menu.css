@@ -38,11 +38,9 @@
 #g-nav ul {
 	opacity: 0;/*はじめは透過0*/
     /*ナビゲーション天地中央揃え※レイアウトによって調整してください。不必要なら削除*/
-    position: absolute;
+    position: relative;
     z-index: 999;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    margin: 50vh auto;
 }
 
 /*背景が出現後にナビゲーションを表示*/
