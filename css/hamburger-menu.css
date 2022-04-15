@@ -83,6 +83,10 @@ opacity:0;
 	letter-spacing: 0.1em;
 	font-weight: bold;
 }
+#g-nav ul{
+    padding: 0;
+    flex-direction: column;
+}
 
 
 /*========= ボタンのためのCSS ===============*/
