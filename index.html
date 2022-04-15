@@ -8,8 +8,9 @@
     <title>TOP | Jikkyのホームページ</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="icon" href="https://Jikky1618.github.io/img/JikkyIcon.png">
+    <link href="css/hamburger-menu.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="/img/JikkyIcon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
 </head>
 <!-- //head -->
@@ -18,7 +19,7 @@
 
     <!-- header -->
     <header id="header">
-        <a href="/"><img src="https://Jikky1618.github.io/img/JikkyIcon.png" alt="icon"></a>
+        <a href="/"><img src="/img/JikkyIcon.png" alt="icon"></a>
         <nav id="header-nav">
             <ul>
                 <li><a href="#about">ABOUT</a></li>
@@ -27,18 +28,20 @@
                 <li><a href="#4">FOUR</a></li>
             </ul>
         </nav>
-        <nav id="sp-nav">
-            <ul>
-               <li><a href="#about">ABOUT</a></li>
-               <li><a href="#works">SKILLS</a></li>
-               <li><a href="#works">WORKS</a></li>
-               <li><a href="#4">FOUR</a></li>
-               <li id="close"><span>閉じる</span></li>
-            </ul>
-        </nav>
-        <div class="hamburger">
+        <div class="hamburger-btn">  
+            <span></span>
+            <span></span>
             <span></span>
         </div>
+        <nav id="g-nav">
+            <ul>
+                <li><a href="#about">ABOUT</a></li> 
+                <li><a href="#skills">SKILLS</a></li> 
+                <li><a href="#works">WORKS</a></li> 
+                <li><a href="#4">FOUR</a></li> 
+            </ul>
+        </nav>
+    <div class="circle-bg"></div>
     </header>
     <!-- //header -->
 
@@ -49,7 +52,7 @@
     <div class="about">
         <h1 id="about">プロフィール</h1>
         <div class="about-icon">
-            <img src="https://Jikky1618.github.io/img/JikkyIcon.png" alt="icon">
+            <img src="/img/JikkyIcon.png" alt="icon">
         </div>
         <h1 id="name">じっきー / Jikky</h1>
         <div class="title">
@@ -85,6 +88,6 @@
     <!-- //footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://Jikky1618.github.io/index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
