@@ -154,6 +154,10 @@ li{
 }
 
 @media only screen and (max-width: 640px){
+    .header-nav{
+        display: none;
+    }
+
     #header img{
         margin: auto 0;
     }
