@@ -18,7 +18,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: #999;
+    background: #19191E;
     /*丸のスタート位置と形状*/
 	transform: scale(0);/*scaleをはじめは0に*/
 	top:-50px;
@@ -59,12 +59,12 @@ animation-fill-mode:forwards;
 opacity:0;
 }
 @keyframes gnaviAnime{
-0% {
-opacity: 0;
-}
-100% {
-opacity: 1;
-}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 
@@ -75,7 +75,7 @@ opacity: 1;
 }
 
 #g-nav li a{
-	color: #333;
+	color: #F5F5F5;
 	text-decoration: none;
 	padding:10px;
 	display: block;
