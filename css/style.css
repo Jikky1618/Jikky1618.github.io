@@ -8,6 +8,19 @@ body{
     background-color: #202124;
     font-family: 'Noto Sans JP','Roboto', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+ul{
+    list-style: none;
+    margin: 0 15px;
+    display: flex;
+}
+li{
+    margin: 0 15px;
+    font-size: 15px;
+}
 
 /*header
 ------------------------------------------------------------*/
@@ -29,8 +42,6 @@ header{
     width: 70px;
 }
 
-
-
 /*footer
 ------------------------------------------------------------*/
 footer{
@@ -51,7 +62,6 @@ footer{
 }
 .footer-light{
     position: relative;
-    /* 上 | 右 | 下 | 左 */
     margin:0 20% 0 auto;
 
 }
@@ -88,6 +98,8 @@ footer{
 	align-items: center;	
 }
 
+/*main
+------------------------------------------------------------*/
 .main-visual{
     background-image: url('https://Jikky1618.github.io/img/Background.png');
     background-color: #202124;
@@ -100,12 +112,13 @@ footer{
     justify-content: center;
     height: 100vh;
 }
-.main-visual h2{
+.main-visual h1{
     margin: 0;
     font-size: 70px;
     font-weight: bold;
     color: #F5F5F5;
 }
+
 .about-icon img{
     width:  200px;       /* ※縦横を同値に */
     height: 200px;
@@ -121,7 +134,7 @@ footer{
     margin: 50px 20%;
 }
 .works h1{
-    margin: 50px 20% 10px;
+    margin: 50px 20%;
 }
 h1#name{
     margin: 5px 20%;
@@ -134,22 +147,7 @@ h1#name{
     margin: 7px 20%;
     font-size: 15px;
 }
-a{
-    text-decoration: none;
-    color: #F5F5F5;
-}
-nav{
-    margin-left: auto;
-}
-ul{
-    list-style: none;
-    margin: 0 15px;
-    display: flex;
-}
-li{
-    margin: 0 15px;
-    font-size: 15px;
-}
+
 
 @media only screen and (max-width: 640px){
     .header-nav{
