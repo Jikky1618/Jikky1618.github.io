@@ -162,16 +162,14 @@ h2#name{
         font-weight: bold;
         color: #F5F5F5;
     }
+    
+    h2{
+        margin: 40px 5%;
+    }
 
     .about,.works{
         margin: auto 5%;
         text-align: center;
-    }
-    .about h1{
-        margin: 40px 5%;
-    }
-    .works h1{
-        margin: 40px 5% 10px;
     }
     h2#name{
         margin: 5px 5%;
