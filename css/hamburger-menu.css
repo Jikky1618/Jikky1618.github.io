@@ -97,10 +97,9 @@ opacity:0;
 /*hamburger-btn
 ------------------------------------------------------------*/
 .hamburger-btn{
-    padding: 31px 20px;
 	position:fixed;
     z-index: 9999;/*ボタンを最前面に*/
-    top: 31px;/*22.5 + 8.5*/
+    top: 38px;/*22.5 + 8.5*/
     right: 20px;
 	cursor: pointer;
     width: 50px;
