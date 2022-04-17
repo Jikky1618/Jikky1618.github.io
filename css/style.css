@@ -205,6 +205,6 @@ h2#name{
     .footer-right,.footer-light{
         position: relative;
         /* 上 | 右 | 下 | 左 */
-        margin: 0 auto;
+        margin: 15px auto;
     }
 }
