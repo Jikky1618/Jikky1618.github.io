@@ -31,14 +31,15 @@ h2{
 /*header
 ------------------------------------------------------------*/
 header{
-    padding: 10px 8%;
-    position: fixed;/*固定*/
-    top: 0;/*最上部*/
-    width: 100%;/*横幅をディスプレイの横の大きさに*/
-    background-color: #0B0B61;
+    padding: 25px 8%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: .3s;
 }
 .header img{
     padding: 0;
@@ -63,6 +64,11 @@ header{
     transform-origin: left top;
     transform: scale(1, 1);
 }
+
+.header.scroll-nav {
+    padding: 8px 8%;
+    background-color: #0B0B61;
+  }
 
 /*footer
 ------------------------------------------------------------*/

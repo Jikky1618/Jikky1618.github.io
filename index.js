@@ -9,3 +9,16 @@ $("#g-nav a").click(function () {
     $("#g-nav").removeClass('panelactive');
     $(".circle-bg").removeClass('circleactive');
 });
+
+$(function() {
+    $(window).scroll(function() {
+        var scroll = $(this).scrollTop();
+        console.log(scroll);
+        if(scroll > 100){
+            $(".header").addClass('scroll-nav');
+        }else{
+            $(".header").removeClass('scroll-nav');
+        }
+    });
+});
+
