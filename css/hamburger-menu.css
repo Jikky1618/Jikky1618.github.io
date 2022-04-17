@@ -1,4 +1,5 @@
-/*========= ナビゲーションのためのCSS ===============*/
+/*#g-nav
+------------------------------------------------------------*/
 
 /*アクティブになったエリア*/
 #g-nav.panelactive{
@@ -93,7 +94,8 @@ opacity:0;
 }
 
 
-/*========= ボタンのためのCSS ===============*/
+/*hamburger-btn
+------------------------------------------------------------*/
 .hamburger-btn{
 	position:fixed;
     z-index: 9999;/*ボタンを最前面に*/
@@ -145,6 +147,7 @@ opacity:0;
     transform: translateY(-6px) rotate(45deg);
     width: 30%;
 }
+
 @media only screen and (min-width: 641px){
     .hamburger-btn{
         display: none;
