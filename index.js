@@ -15,9 +15,11 @@ $(function() {
         var scroll = $(this).scrollTop();
         console.log(scroll);
         if(scroll > 100){
-            $(".header").addClass('scroll-nav');
+            $(".header").addClass('scroll');
+            $(".hamburger-btn").addClass('scroll-btn');
         }else{
-            $(".header").removeClass('scroll-nav');
+            $(".header").removeClass('scroll');
+            $(".hamburger-btn").removeClass('scroll-btn');
         }
     });
 });
