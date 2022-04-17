@@ -16,11 +16,11 @@ a{
 }
 ul{
     list-style: none;
-    margin: 0 15px;
+    margin: 0 20px;
     display: flex;
 }
 li{
-    margin: 0 15px;
+    margin: 0 20px;
     font-size: 15px;
 }
 h2{
@@ -170,6 +170,22 @@ h2#name{
     font-size: 18px;
 }
 
+@media  only screen and (max-width: 850px){
+    footer{
+        /* 上下 | 左右 */
+        padding: 20px 4%;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        flex-flow: column;
+        color: #F5F5F5;
+        background-color: #19191E; 
+    }
+    .footer-right,.footer-light{
+        position: relative;
+        margin: 15px auto;
+    }
+}
 
 @media only screen and (max-width: 640px){
     .header-nav{
@@ -197,19 +213,5 @@ h2#name{
     }
     h2#name{
         margin: 5px 5%;
-    }
-    footer{
-        /* 上下 | 左右 */
-        padding: 20px 4%;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-        flex-flow: column;
-        color: #F5F5F5;
-        background-color: #19191E; 
-    }
-    .footer-right,.footer-light{
-        position: relative;
-        margin: 15px auto;
     }
 }
