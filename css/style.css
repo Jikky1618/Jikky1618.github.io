@@ -80,11 +80,11 @@ footer{
 .footer-right{
     position: relative;
     /* 上 | 右 | 下 | 左 */
-    margin:0 auto 0 20%;
+    margin:0 auto 0 25%;
 }
 .footer-light{
     position: relative;
-    margin:0 20% 0 auto;
+    margin:0 25% 0 auto;
 
 }
 .fas_sns_circle{
