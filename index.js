@@ -10,17 +10,17 @@ $("#g-nav a").click(function () {
     $(".circle-bg").removeClass('circleactive');
 });
 
-$(function() {
-    $(window).scroll(function() {
-        var scroll = $(this).scrollTop();
-        console.log(scroll);
-        if(scroll > 100){
-            $(".header").addClass('scroll');
-            $(".hamburger-btn").addClass('scroll-btn');
-        }else{
-            $(".header").removeClass('scroll');
-            $(".hamburger-btn").removeClass('scroll-btn');
-        }
-    });
+
+$(window).scroll(function() {
+    var scroll = $(this).scrollTop();
+    console.log(scroll);
+    if(scroll > 100){
+        $(".header").addClass('scroll');
+        $(".hamburger-btn").addClass('scroll-btn');
+    }else{
+        $(".header").removeClass('scroll');
+        $(".hamburger-btn").removeClass('scroll-btn');
+    }
 });
+
 
