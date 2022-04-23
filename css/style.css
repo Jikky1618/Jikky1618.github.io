@@ -105,8 +105,12 @@ header{
     text-align: center;
 }
 .skill-icon{
-    display: inline-block;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-icon li{
+    margin: 10px 100px;
 }
 .skill-icon i{
     font-size: 120px;
@@ -131,7 +135,6 @@ footer{
     padding: 25px 4% 25px;
     bottom: 0;
     width: 100%;
-    text-align: center;
     display: flex;
     align-items: center;
     color: #F5F5F5;
@@ -182,6 +185,9 @@ footer{
 
 
 @media  only screen and (max-width: 850px){
+    .skill-icon{
+        flex-flow: column;
+    }
     footer{
         /* 上下 | 左右 */
         padding: 20px 4%;
