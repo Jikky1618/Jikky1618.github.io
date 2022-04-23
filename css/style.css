@@ -70,6 +70,60 @@ header{
     background-color: #0B0B61;
   }
 
+/*main-visual
+------------------------------------------------------------*/
+.main-visual{
+    background-image: url('https://Jikky1618.github.io/img/Background.png');
+    background-color: #202124;
+    background-attachment: fixed;/*固定*/
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main-visual h1{
+    margin: 0;
+    font-size: 70px;
+    font-weight: bold;
+    color: #F5F5F5;
+}
+
+/*about,skills,works
+------------------------------------------------------------*/
+.about-icon img{
+    width:  200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    border: 9px solid #2B2A33;
+}
+.about,.skills,.works{
+    margin: auto 20%;
+    text-align: center;
+}
+.skill-icon{
+    display: inline-block;
+    margin: 0 auto;
+}
+.skill-icon i{
+    font-size: 120px;
+}
+
+h2#name{
+    margin: 5px 20%;
+}
+.about p,.skills p,.works p{
+    text-align: left;
+    display: inline-block;
+}
+.title p{
+    margin: 7px 20%;
+    font-size: 18px;
+}
+
 /*footer
 ------------------------------------------------------------*/
 footer{
@@ -126,52 +180,6 @@ footer{
 	align-items: center;	
 }
 
-/*main-visual
-------------------------------------------------------------*/
-.main-visual{
-    background-image: url('https://Jikky1618.github.io/img/Background.png');
-    background-color: #202124;
-    background-attachment: fixed;/*固定*/
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-.main-visual h1{
-    margin: 0;
-    font-size: 70px;
-    font-weight: bold;
-    color: #F5F5F5;
-}
-
-/*about,skills,works
-------------------------------------------------------------*/
-.about-icon img{
-    width:  200px;
-    height: 200px;
-    border-radius: 50%;
-    text-align: center;
-    border: 9px solid #2B2A33;
-}
-.about,.skills,.works{
-    margin: auto 20%;
-    text-align: center;
-}
-
-h2#name{
-    margin: 5px 20%;
-}
-.about p,.skills p,.works p{
-    text-align: left;
-    display: inline-block;
-}
-.title p{
-    margin: 7px 20%;
-    font-size: 18px;
-}
 
 @media  only screen and (max-width: 850px){
     footer{
