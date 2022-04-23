@@ -114,7 +114,7 @@ footer{
 	border-radius: 25px;
 }
 .fas_sns_circle li a i{
-	display: inline-block;
+    display: inline-block;
 	width: 50px;
 	height: 50px;	
 	color: #fff;
@@ -126,7 +126,7 @@ footer{
 	align-items: center;	
 }
 
-/*main
+/*main-visual
 ------------------------------------------------------------*/
 .main-visual{
     background-image: url('https://Jikky1618.github.io/img/Background.png');
@@ -147,17 +147,20 @@ footer{
     color: #F5F5F5;
 }
 
+/*about,skills,works
+------------------------------------------------------------*/
 .about-icon img{
-    width:  200px;       /* ※縦横を同値に */
+    width:  200px;
     height: 200px;
     border-radius: 50%;
     text-align: center;
-    border: 9px solid #2B2A33; /* 枠線を付加 */
+    border: 9px solid #2B2A33;
 }
 .about,.skills,.works{
     margin: auto 20%;
     text-align: center;
 }
+
 h2#name{
     margin: 5px 20%;
 }
