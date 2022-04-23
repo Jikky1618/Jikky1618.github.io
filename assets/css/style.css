@@ -91,7 +91,6 @@ header{
     margin: 0;
     font-size: 70px;
     font-weight: bold;
-    color: #F5F5F5;
 }
 
 /*about,skills,works
@@ -113,11 +112,8 @@ header{
     justify-content: center;
 }
 .skill-icon li{
-    display: flex;
-    flex: 1 0 auto; 
-    flex-flow: column;
 	align-items: center;
-    margin: 10px 30px;
+    margin: 5% 8%;
 }
 .skill-icon h2{
     margin: 10px;
@@ -228,7 +224,6 @@ footer{
         margin: 0;
         font-size: 40px;
         font-weight: bold;
-        color: #F5F5F5;
     }
 
     h2{
