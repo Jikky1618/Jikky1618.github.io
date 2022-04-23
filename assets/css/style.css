@@ -157,27 +157,27 @@ footer{
     margin:0 25% 0 auto;
 
 }
-.fas_sns_circle{
+.fas-sns-circle{
 	margin: 0;
 	padding: 0; 
 	display: -webkit-flex;
     display: -moz-flex;
     display: flex;
 }
-.fas_sns_circle li{
+.fas-sns-circle li{
 	list-style: none;
 	margin: 0 20px 0 0;
 }
-.fas_sns_circle li:nth-child(3) {
+.fas-sns-circle li:nth-child(3) {
 	margin: 0;
   }
-.fas_sns_circle li a{
+.fas-sns-circle li a{
 	text-decoration: none;
 	display: inline-block;
 	background: #333;
 	border-radius: 25px;
 }
-.fas_sns_circle li a i{
+.fas-sns-circle li a i{
     display: inline-block;
 	width: 50px;
 	height: 50px;	
