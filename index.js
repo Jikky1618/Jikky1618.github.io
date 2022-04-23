@@ -27,7 +27,7 @@ $(window).scroll(function() {
 $('a[href*="#"]').click(function () {
     var elmHash = $(this).attr('href');
     var pos = $(elmHash).offset().top-100;
-    $('body,html').animate({scrollTop: pos}, 500);
+    $('body,html').animate({scrollTop: pos}, 250);
     return false;
   });
 
