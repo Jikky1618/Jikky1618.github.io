@@ -63,14 +63,18 @@ header{
     transform-origin: right top;
     transition: transform .3s;
 }
+.header-nav a:hover{
+    color: #FFAE00;
+}
 .header-nav a:hover::after {
     transform-origin: left top;
     transform: scale(1, 1);
+    background: #FFAE00;
 }
 
 .header.scroll{
     padding: 8px 8%;
-    background-color: #0B0B61;
+    background: #0B0B61;
   }
 
 /*main-visual
@@ -170,24 +174,28 @@ footer{
 }
 .fas-sns-circle li:nth-child(3) {
 	margin: 0;
-  }
+}
 .fas-sns-circle li a{
 	text-decoration: none;
 	display: inline-block;
 	background: #333;
 	border-radius: 25px;
+    transition: .5s;
+}
+.fas-sns-circle li a:hover{
+    background: #FFAE00;
 }
 .fas-sns-circle li a i{
     display: inline-block;
 	width: 50px;
 	height: 50px;	
-	color: #fff;
+	color: #F5F5F5;
 	font-size: 20px;
 	display: -webkit-flex;
     display: -moz-flex;
     display: flex;
 	justify-content: center;
-	align-items: center;	
+	align-items: center;
 }
 
 
