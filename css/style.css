@@ -9,10 +9,10 @@ body{
     font-family: 'Noto Sans JP','Roboto', sans-serif;
 }
 a{
+    color: #F5F5F5;
     position: relative;
     display: inline-block;
     text-decoration: none;
-    color: #F5F5F5;
 }
 p{
     text-align: left;
@@ -20,12 +20,7 @@ p{
 }
 ul{
     list-style: none;
-    margin: 0 20px;
     display: flex;
-}
-li{
-    margin: 0 20px;
-    font-size: 15px;
 }
 h2{
     margin: 50px 20%;
@@ -47,10 +42,14 @@ header{
 }
 .header img{
     padding: 0;
-    margin: auto 20px;
+    margin: auto;
     display: flex;
     align-items: center;
     width: 70px;
+}
+.header li{
+    margin: 0 20px;
+    font-size: 15px;
 }
 .header-nav a::after {
     position: absolute;
@@ -112,9 +111,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.skill-icon ul{
-    display: flex;
 }
 .skill-icon li{
     display: flex;
