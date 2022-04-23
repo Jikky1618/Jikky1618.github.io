@@ -199,6 +199,8 @@ footer{
 	align-items: center;
 }
 
+/*fadeUp
+------------------------------------------------------------*/
 .fadeUp{
     display: block;
     animation-name: fadeUpAnime;
@@ -218,6 +220,8 @@ footer{
     }
 }
 
+/*media only screen
+------------------------------------------------------------*/
 @media  only screen and (max-width: 850px){
     .skill-icon{
         flex-flow: column;
