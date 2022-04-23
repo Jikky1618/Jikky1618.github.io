@@ -14,6 +14,10 @@ a{
     text-decoration: none;
     color: #F5F5F5;
 }
+p{
+    text-align: left;
+    display: inline-block;
+}
 ul{
     list-style: none;
     margin: 0 20px;
@@ -109,8 +113,23 @@ header{
     align-items: center;
     justify-content: center;
 }
+.skill-icon ul{
+    display: flex;
+}
 .skill-icon li{
-    margin: 10px 100px;
+    display: flex;
+    flex: 1 0 auto; 
+    flex-flow: column;
+	align-items: center;
+    margin: 10px 30px;
+}
+.skill-icon h2{
+    margin: 10px;
+    font-size: 16px;
+}
+.skill-icon p{
+    width: 230px;
+    text-align: center;
 }
 .skill-icon i{
     font-size: 120px;
@@ -118,10 +137,6 @@ header{
 
 h2#name{
     margin: 5px 20%;
-}
-.about p,.skills p,.works p{
-    text-align: left;
-    display: inline-block;
 }
 .title p{
     margin: 7px 20%;
