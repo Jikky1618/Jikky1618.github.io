@@ -93,7 +93,7 @@ header{
 }
 .main-visual h1{
     margin: 0;
-    font-size: 100px;
+    font-size: 120px;
     display: block;
     font-weight: bold;
 }
@@ -249,7 +249,7 @@ footer{
 
     .main-visual h1{
         margin: 0;
-        font-size: 40px;
+        font-size: 50px;
         font-weight: bold;
     }
 
