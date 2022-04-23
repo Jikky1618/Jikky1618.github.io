@@ -3,4 +3,3 @@
  - https://coco-factory.jp/ugokuweb/ - 動くWebデザイン
 アイディア帳
  - https://125naroom.com/ - 125naroom / デザインするところ 
-jQueryしか使えないので誰か他のライブラリ(React)とか教えてほしい；；
