@@ -131,7 +131,7 @@ header{
     font-size: 120px;
 }
 
-h2#name{
+.name h2{
     margin: 5px 20%;
 }
 .title p{
@@ -242,7 +242,7 @@ footer{
         margin: auto 5%;
         text-align: center;
     }
-    h2#name{
+    .name h2{
         margin: 5px 5%;
     }
 }
