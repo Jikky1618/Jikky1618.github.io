@@ -227,6 +227,11 @@ footer{
     .skill-icon{
         flex-flow: column;
     }
+    .main-visual h1{
+        margin: 0;
+        font-size: 90px;
+        font-weight: bold;
+    }
     footer{
         /* 上下 | 左右 */
         padding: 20px 4%;
