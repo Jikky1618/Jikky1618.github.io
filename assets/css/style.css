@@ -6,7 +6,7 @@
 body{
     color: #F5F5F5;
     background-color: #202124;
-    font-family: 'Source Sans Pro',-apple-system, BlinkMacSystemFont,'Noto Sans JP','Roboto', sans-serif;
+    font-family: 'Source Sans Pro',-apple-system, BlinkMacSystemFont,'Noto Sans JP', 'Helvetica Neue', 'Yu Gothic','Roboto',メイリオ,sans-serif;
 }
 a{
     color: #F5F5F5;
