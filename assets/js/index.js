@@ -25,9 +25,12 @@ $(window).scroll(function() {
 
 
 $('a[href^="#"]').click(function () {
-    let elmHash = $(this).attr('href');
-    let pos = $(elmHash).offset().top-100;
-    $('body,html').animate({scrollTop: pos}, pos);
+    let speed = 400;
+    let href = $(this).attr('href');
+    let target = $(href == "#" || href == "" ? 'html' : href);
+    let pos = $(target).offset().top-100;
+
+    $('html,body').animate({scrollTop: pos}, speed, "swing");
     return false;
   });
 
