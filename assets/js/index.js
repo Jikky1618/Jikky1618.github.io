@@ -30,7 +30,7 @@ $('a[href^="#"]').click(function () {
     let target = $(href == "#" || href == "" ? 'html' : href);
     let pos = $(target).offset().top-100;
 
-    $('html,body').animate({scrollTop: pos}, speed, "swing");
+    $('html,body').animate({scrollTop: pos}, speed, "easeInCubic");
     return false;
   });
 
