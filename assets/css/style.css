@@ -14,18 +14,24 @@ a{
     display: inline-block;
     text-decoration: none;
 }
+h2{
+    margin: 50px 20%;
+    font-size: 32px;
+}
 p{
     text-align: left;
     display: inline-block;
+}
+img{
+    margin: auto;
+    display: flex;
+    align-items: center;
 }
 ul{
     list-style: none;
     display: flex;
 }
-h2{
-    margin: 50px 20%;
-    font-size: 32px;
-}
+
 
 /*header
 ------------------------------------------------------------*/
@@ -43,9 +49,6 @@ header{
 }
 .header img{
     padding: 0;
-    margin: auto;
-    display: flex;
-    align-items: center;
     width: 70px;
 }
 .header li{
