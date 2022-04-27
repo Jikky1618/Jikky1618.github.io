@@ -25,12 +25,12 @@ $(window).scroll(function() {
 
 
 $('a[href^="#"]').click(function () {
-    let speed = 400;
+    let speed = 700;
     let href = $(this).attr('href');
     let target = $(href == "#" || href == "" ? 'html' : href);
     let pos = $(target).offset().top-100;
 
-    $('html,body').animate({scrollTop: pos}, speed, "easeInCubic");
+    $('html,body').animate({scrollTop: pos}, speed, "easeInOutExpo");
     return false;
   });
 
