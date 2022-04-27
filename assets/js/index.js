@@ -12,7 +12,7 @@ $("#g-nav a").click(function () {
 
 
 $(window).scroll(function() {
-    var scroll = $(this).scrollTop();
+    let scroll = $(this).scrollTop();
     console.log(scroll);
     if(scroll > 100){
         $(".header").addClass('scroll');
@@ -24,10 +24,10 @@ $(window).scroll(function() {
 });
 
 
-$('a[href*="#"]').click(function () {
-    var elmHash = $(this).attr('href');
-    var pos = $(elmHash).offset().top-100;
-    $('body,html').animate({scrollTop: pos}, pos*1/2);
+$('a[href^="#"]').click(function () {
+    let elmHash = $(this).attr('href');
+    let pos = $(elmHash).offset().top-100;
+    $('body,html').animate({scrollTop: pos}, pos);
     return false;
   });
 
