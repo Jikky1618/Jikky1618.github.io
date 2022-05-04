@@ -98,7 +98,7 @@ opacity:0;
 ------------------------------------------------------------*/
 .hamburger-btn{
 	position:fixed;
-    z-index: 9999;/*ボタンを最前面に*/
+    z-index: 1000;/*ボタンを最前面に*/
     top: 38px;/*22.5 + 8.5*/
     right: 20px;
 	cursor: pointer;
