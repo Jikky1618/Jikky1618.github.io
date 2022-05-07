@@ -1,8 +1,8 @@
 
 let bar = new ProgressBar.Line(splash_text, {//id名を指定
 	easing: 'easeInOut',//アニメーション効果linear、easeIn、easeOut、easeInOutが指定可能
-	duration: 1000,
-	strokeWidth: 3,//進捗ゲージの太さ
+	duration: 1400,
+	strokeWidth: 4,//進捗ゲージの太さ
 	color: '#FFF',//進捗ゲージのカラー
 	trailWidth: 3,//ゲージベースの線の太さ
 	trailColor: '#777B80',//ゲージベースの線のカラー
@@ -26,7 +26,7 @@ let bar = new ProgressBar.Line(splash_text, {//id名を指定
 
 //アニメーションスタート
 bar.animate(1.0, function () {//バーを描画する割合を指定します 1.0 なら100%まで描画します
-	$("#splash").delay(500).fadeOut(800);//アニメーションが終わったら#splashエリアをフェードアウト
+	$("#splash").delay(500).fadeOut(200);
 });  
 
 $(".hamburger-btn").click(function () {
