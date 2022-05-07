@@ -231,6 +231,7 @@ footer{
 .fadeUp{
     display: block;
     animation-name: fadeUpAnime;
+    animation-delay: 2.0s;
     animation-duration: .6s;
     animation-fill-mode: forwards;
     opacity: 0;
