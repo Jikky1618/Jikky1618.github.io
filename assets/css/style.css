@@ -102,7 +102,7 @@ header{
 .header.scroll{
     padding: 8px 8%;
     background: #0B0B61;
-  }
+}
 
 /*main-visual
 ------------------------------------------------------------*/
@@ -132,7 +132,6 @@ header{
     height: 200px;
     border-radius: 50%;
     text-align: center;
-    border: 9px solid #2B2A33;
 }
 .about,.skills,.works{
     margin: auto 20%;
