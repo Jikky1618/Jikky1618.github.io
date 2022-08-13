@@ -32,7 +32,7 @@
 }
 
 #g-nav.panelactive{
-     display: block; /*クラスが付与されたら出現*/
+    display: block; /*クラスが付与されたら出現*/
 }
 
 /*ナビゲーション*/
@@ -119,8 +119,8 @@ opacity:0;
     left: 14px;
     height: 3px;
 	background-color: #F5F5F5;
-  	width: 45%;
-  }
+    width: 45%;
+}
 
 .hamburger-btn span:nth-of-type(1) {
 	top:15px;	

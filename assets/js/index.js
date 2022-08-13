@@ -62,5 +62,5 @@ $('a[href^="#"]').click(function () {
     let pos = $(target).offset().top-100;
     $('html,body').animate({scrollTop: pos}, speed, "easeInOutExpo");
     return false;
-  });
+});
 
