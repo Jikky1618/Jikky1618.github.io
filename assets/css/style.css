@@ -7,12 +7,13 @@ body{
     color: #F5F5F5;
     background-color: #202124;
     font-weight: bold;
-    font-family: "Helvetica Neue LT",
+    font-family: 
+    "Source Sans Pro",
+    "Noto Sans JP",
+    "Helvetica Neue LT",
     "Helvetica Neue",
     "Hiragino Kaku Gothic ProN",
     -apple-system, BlinkMacSystemFont,
-    "Source Sans Pro",
-    "Noto Sans JP",
     Arial,
     Meiryo,
     sans-serif;
