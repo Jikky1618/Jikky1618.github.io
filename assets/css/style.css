@@ -81,6 +81,7 @@ header{
 .header img{
     padding: 0;
     width: 70px;
+    border-radius: 50%;
 }
 .header li{
     margin: 0 20px;
